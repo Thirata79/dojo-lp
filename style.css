@@ -164,4 +164,7 @@ font-size: 30px; font-weight:700;
   .global-nav {
     display: none;
   }
+  .util-bar .util--sub {
+  display: none;
+}
 }
