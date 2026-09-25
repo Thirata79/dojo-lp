@@ -141,9 +141,6 @@ font-size: 30px; font-weight:700;
 @media (max-width: 600px) {
   .brand__name {
     font-size: 22px;
-    .util {
-  flex: 1;
-}
   }
 
   .header-right,
@@ -156,10 +153,13 @@ font-size: 30px; font-weight:700;
   }
 
   .util {
+    flex: 1;
     font-size: 14px;
   }
 
- <li class="util--sub"><a class="util util--orange1" href="#"><span class="util__icon" aria-hidden="true"></span>スケジュール</a></li>
+  .util--sub {
+    display: none;
+  }
 
   .global-nav {
     display: none;
